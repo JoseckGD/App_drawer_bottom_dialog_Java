@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_shorts"
+            android:icon="@drawable/baseline_whatshot_24"
+            android:title="Shorts" />
+        <item
+            android:id="@+id/nav_subs"
+            android:icon="@drawable/baseline_subscriptions_24"
+            android:title="Subscriptions" />
+        <item
+            android:id="@+id/nav_Library"
+            android:icon="@drawable/baseline_video_library_24"
+            android:title="Library" />
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
